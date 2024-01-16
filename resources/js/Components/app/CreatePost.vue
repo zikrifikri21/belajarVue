@@ -3,10 +3,10 @@ import { ref } from "vue";
 const postCreating = ref(false);
 </script>
 <template>
-    <div class="py-6">
+    <div class="p-4 bg-white rounded-lg border mb-3">
         <div
             @click="postCreating = true"
-            class="py-3 px-2 text-gray-500 border border-gray-200 rounded mb-3"
+            class="py-3 px-2 text-gray-400 border-2 border-gray-200 rounded mb-3"
         >
             Click heare post
         </div>
